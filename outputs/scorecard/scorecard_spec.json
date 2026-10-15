@@ -1,0 +1,22 @@
+{
+  "base_score": 600,
+  "base_odds_good_to_bad": 50,
+  "pdo": 20,
+  "factor": 28.85390081777927,
+  "offset": 487.1228762045055,
+  "intercept": -2.6057556760926808,
+  "n_variables": 9,
+  "base_points_per_variable": 62.47878800420545,
+  "round_points": true,
+  "coefficients": {
+    "revolving_util": -0.5986390278826771,
+    "age": -0.41351635696432015,
+    "n_30_59_late": -0.4846587793190229,
+    "n_60_89_late": -0.3708990445579887,
+    "n_90_late": -0.534108453297634,
+    "debt_ratio": -0.9079129039408488,
+    "n_open_lines": -0.10475760376632579,
+    "n_real_estate": -0.6707538346531441,
+    "n_dependents": -0.2279235386924414
+  }
+}

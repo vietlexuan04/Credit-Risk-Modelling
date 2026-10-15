@@ -1,0 +1,4 @@
+,rows,bad,share_of_rows,bad_rate
+full,150000,10026,1.0,0.0668
+development,104987,7020,0.6999,0.0669
+hold-out,45013,3006,0.3001,0.0668

@@ -1,0 +1,7 @@
+rule,rows_affected,cells_affected,rows_after
+R1 drop rows with age < 18,1,1,45012
+R2 recode 96/98 in late-count columns to NaN + flag,99,297,45012
+R3 monthly_income < 100 (zero / placeholder) -> NaN,701,701,45012
+R4 debt_ratio -> NaN where monthly_income is NaN,9584,9584,45012
+R5 revolving_util > 10 -> NaN,66,66,45012
+R6 duplicated rows: kept (no action),0,0,45012

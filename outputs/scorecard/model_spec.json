@@ -1,0 +1,24 @@
+{
+  "intercept": -2.6057556760926808,
+  "coefficients": {
+    "revolving_util": -0.5986390278826771,
+    "age": -0.41351635696432015,
+    "n_30_59_late": -0.4846587793190229,
+    "n_60_89_late": -0.3708990445579887,
+    "n_90_late": -0.534108453297634,
+    "debt_ratio": -0.9079129039408488,
+    "n_open_lines": -0.10475760376632579,
+    "n_real_estate": -0.6707538346531441,
+    "n_dependents": -0.2279235386924414
+  },
+  "dropped": [
+    {
+      "step": 1,
+      "dropped": "woe_monthly_income",
+      "reason": "wrong sign",
+      "value": 0.686160659617199,
+      "n_left": 9
+    }
+  ],
+  "sign_convention": "target=1 is bad; WoE=ln(%good/%bad); coefficients are negative"
+}

@@ -1,0 +1,11 @@
+variable,iv,strength,n_bins,missing_handling
+revolving_util,1.1565855822839082,very strong (check for leakage),8,merged
+n_90_late,0.8837617621557698,very strong (check for leakage),4,own_bin
+n_30_59_late,0.735912754693429,very strong (check for leakage),5,own_bin
+n_60_89_late,0.5902167816708577,very strong (check for leakage),4,own_bin
+age,0.26989059122854603,medium,8,none
+n_open_lines,0.09910056077262921,weak,5,none
+monthly_income,0.08243403045259054,weak,8,own_bin
+debt_ratio,0.07962157520916986,weak,6,own_bin
+n_real_estate,0.061840688778591196,weak,5,none
+n_dependents,0.038921208108526666,weak,6,own_bin
